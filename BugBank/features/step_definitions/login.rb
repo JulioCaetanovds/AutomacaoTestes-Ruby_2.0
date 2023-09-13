@@ -1,7 +1,8 @@
 Dado('que esteja na página incial') do
-    visit "https://bugbank.netlify.app"
+    @home_page = Pages::Home.new
+    @home_page.load
 end
-  
+
 Quando('realizar o login com usuário válido') do
 
 end

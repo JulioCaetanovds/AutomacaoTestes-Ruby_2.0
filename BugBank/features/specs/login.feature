@@ -1,6 +1,6 @@
 #language: pt
 
-@user
+@login
 Funcionalidade: Login
     SENDO um cliente do BugBank
     QUERO poder logar
