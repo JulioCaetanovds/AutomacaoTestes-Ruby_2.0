@@ -4,7 +4,7 @@ Dado('que eu estou na página de registro') do
 end
 
 Quando('eu insiro um email válido') do
-    @home_page.input_register_email.
+    @home_page.input_register_email
 end
   
 Quando('insiro um nome válido') do
