@@ -16,6 +16,10 @@ module Pages
 
       element :input_login_email, '.card__login input[name="email"]'
       element :input_login_senha, '.card__login input[type="password"]'
+      element :msg_login_email_invalid, '.kOeYBn  p[class="input__warging"]'
+      element :msg_login_senha_invalid, '.eTrcYr div[class="login__password"]  p[class="input__warging"]'
       element :btn_acess, '.otUnI'
+
+      element :btn_exit, '#btnExit'
   end
 end
