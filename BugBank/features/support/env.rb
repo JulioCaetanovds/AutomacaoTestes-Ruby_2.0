@@ -5,6 +5,7 @@ require 'capybara'
 require 'site_prism'
 require 'capybara/cucumber'
 require 'pry'
+require 'faker'
 
 ENVIRONMENT = ENV['ENVIRONMENT']
 ENVIRONMENT_CONFIG = YAML.load_file(File.dirname(__FILE__) + "/environment/#{ENVIRONMENT}.yml")
@@ -42,3 +43,18 @@ end
 Capybara.default_driver = :my_chrome
 Capybara.app_host = URL
 Capybara.default_max_wait_time = 10
+
+Before('@registro') do
+    @registration_scenario = true
+end
+  
+Before('@login') do
+    @registration_scenario = false
+end
+  
+Before do
+    if defined?(@registration_scenario) && @registration_scenario == false
+      skip_this_scenario
+    end
+end
+  

@@ -16,9 +16,9 @@ Funcionalidade: Registro
         E insiro um nome válido
         E insiro uma senha válida
         E insiro uma senha igual a anterior
-        E escolho a opção "Não" para conta com saldo
-        E clico no botão "Registrar"
-        E devo ver uma mensagem de sucesso "Registro concluído com sucesso!"
+        E não escolho a opção para conta com saldo
+        E clico no botão registrar
+        E devo ver uma mensagem de sucesso Registro concluído com sucesso!
         Então devo ser redirecionado para a página de login
 
     @valid_register_saldo
@@ -28,7 +28,7 @@ Funcionalidade: Registro
         E insiro um nome válido
         E insiro uma senha válida
         E insiro uma senha igual a anterior
-        E escolho a opção "Sim" para conta com saldo
-        E clico no botão "Registrar"
-        E devo ver uma mensagem de sucesso "Registro concluído com sucesso e sua conta possui saldo!"
+        E escolho a opção para conta com saldo
+        E clico no botão registrar
+        E devo ver uma mensagem de sucesso Registro concluído com sucesso e sua conta possui saldo!
         Então devo ser redirecionado para a página da conta
