@@ -21,5 +21,7 @@ module Pages
       element :btn_acess, '.otUnI'
 
       element :btn_exit, '#btnExit'
+
+      element :btn_requirements, '.xzjxU'
   end
 end

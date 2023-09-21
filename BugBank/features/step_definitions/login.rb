@@ -65,3 +65,13 @@ end
 Quando('volta para home como usuário não logado no sistema') do
   expect(page).to have_content("O banco com bugs e falhas do seu jeito")
 end
+
+Quando('clicar no botão Conheça nossos requisitos') do
+  @home_page.btn_requirements.click
+  @requirements_page = Pages::RequirementsPage.new
+  @requirements_page.load
+end
+
+Então('deverá ser direcionado para a página de requisitos') do
+  expect(current_url).to eq('https://bugbank.netlify.app//requirements')
+end

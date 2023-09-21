@@ -1,5 +1,6 @@
 #language: pt
 
+@regression
 @login
 Funcionalidade: Login
     SENDO um cliente do BugBank
@@ -37,3 +38,8 @@ Funcionalidade: Login
         E devo ser logado com sucesso
         E aperta o botão de sair
         E volta para home como usuário não logado no sistema
+
+    @redirecionamento_botao_requisitos
+    Cenário: Verificar redirecionamento do botão Conheça nossos requisitos
+        Quando clicar no botão Conheça nossos requisitos
+        Então deverá ser direcionado para a página de requisitos
