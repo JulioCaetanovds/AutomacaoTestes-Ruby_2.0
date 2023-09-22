@@ -41,7 +41,6 @@ end
   
 Quando('confirmo a transferência') do
     @transfer_page.btn_transfer.click
-    binding.pry
 end
   
 Então('devo ver uma mensagem de confirmação') do

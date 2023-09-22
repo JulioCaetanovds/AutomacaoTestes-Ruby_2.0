@@ -1,5 +1,6 @@
 #language: pt
 
+@regression
 @registro
 Funcionalidade: Registro
   Sendo um possivel cliente do BugBank
