@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# PB_Sprint6
-=======
 # Projeto de Automação de Testes usando Cucumber e Capybara no Ruby
 
 ## Sobre o Projeto
@@ -83,4 +80,3 @@ bundle exec parallel_cucumber -n 4 -o "-p default -t @regression" features/specs
 
 <a href = "mailto:juliocaetanovds@gmail.com"><img loading="lazy" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 <a href="https://www.linkedin.com/in/juliocaetano15/" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
->>>>>>> develop
