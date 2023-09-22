@@ -1,0 +1,6 @@
+features:
+  - features/specs/account.feature
+  - features/specs/extrato.feature
+  - features/specs/login.feature
+  - features/specs/registro.feature
+  - features/specs/transferencia.feature
