@@ -2,7 +2,7 @@
 
 ## Sobre o Projeto
 
-Este projeto consiste na automação de alguns testes da página web do banco: [AdvantageOnlineShopping](https://bugbank.netlify.app/)
+Este projeto consiste na automação de alguns testes da página web do banco: [BugBank](https://bugbank.netlify.app/)
 
 ## :desktop_computer: Tecnologias Utilizadas
 
